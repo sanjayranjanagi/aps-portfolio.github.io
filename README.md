@@ -1,4 +1,4 @@
-# E-Commerce Portfolio
+# Social media Portfolio
 
 <dl>
 <dt>Course Name</dt>
@@ -13,7 +13,7 @@
 
 * * *
 
-> A step towards better e-commerce management
+> A step towards better Social media management
 
 
 #### Note:
