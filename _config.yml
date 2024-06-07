@@ -1,1 +1,3 @@
-theme: Jekyll One Page
+name: One-Page Layout
+    description: All content displayed on a single scrolling page with smooth transitions.
+    github_link: https://github.com/raviriley/agency-jekyll-theme
