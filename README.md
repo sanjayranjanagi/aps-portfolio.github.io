@@ -12,7 +12,7 @@
 <dt>Course Instructor</dt>
 <dd>Prakash Hegde</dd>
 <dt>Portfolio domain Selected</dt>
-<dd>Social Media</dd>
+<dd>Linkedin</dd>
 </dl>
 
 * * *
@@ -43,6 +43,6 @@ This portfolio showcases how algorithms can be applied within LinkedIn’s ecosy
 The ever-evolving landscape of social networking services necessitates continual improvements in service management and user experience. LinkedIn, as a leading player in this industry, faces various operational challenges that can be addressed through the strategic application of data structures and algorithms. This portfolio is essential for several reasons. Firstly, optimizing service efficiency is crucial; efficient connection recommendations and content delivery can maximize user engagement and satisfaction. By exploring advanced algorithmic solutions, this portfolio aims to enhance these processes, resulting in a more personalized and efficient service. Additionally, the transition from theoretical knowledge to practical application is a critical step in the learning process. This portfolio provides an opportunity to apply concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to real-world problems, thereby solidifying understanding and skills.
 
 #### Objectives
-Apply theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to practical, real-world problems within the LinkedIn platform.
-Address specific business challenges faced by LinkedIn through the application of algorithmic problem-solving.
-Explore and implement algorithmic solutions that ensure streamlined and efficient services within LinkedIn’s ecosystem.
+1.Apply theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to practical, real-world problems within the LinkedIn platform.
+2.Address specific business challenges faced by LinkedIn through the application of algorithmic problem-solving.
+3.Explore and implement algorithmic solutions that ensure streamlined and efficient services within LinkedIn’s ecosystem.
