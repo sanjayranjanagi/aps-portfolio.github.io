@@ -44,5 +44,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 #### Objectives
 1.Apply theoretical concepts from Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to practical, real-world problems within the LinkedIn platform.
+
 2.Address specific business challenges faced by LinkedIn through the application of algorithmic problem-solving.
+
 3.Explore and implement algorithmic solutions that ensure streamlined and efficient services within LinkedIn’s ecosystem.
