@@ -54,7 +54,7 @@ The ever-evolving landscape of social networking services necessitates continual
 <dt>Algorithm:</dt> Graph Algorithms (Graph Traversal, Community Detection)
 Description: LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore connections. Community detection algorithms can identify clusters of users with similar profiles, making recommendations more relevant.
 Challenges: Managing large, dynamic graphs; ensuring privacy and security of user data.
-[View code](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/codes/bfs.cpp)
+[View code](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/Codes/BFS.cpp)
 ## 2. Job Recommendations
 Algorithm: Collaborative Filtering, Content-Based Filtering
 Description: To recommend jobs, LinkedIn can use collaborative filtering to analyze user behavior and preferences, suggesting jobs that similar users have shown interest in. Content-based filtering can use job descriptions and user profiles to match job postings with suitable candidates.
