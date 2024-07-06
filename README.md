@@ -51,7 +51,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 ## Data Structures and Algorithms applicable
 ## 1. Connection Recommendations
-Algorithm: Graph Algorithms (Graph Traversal, Community Detection)
+<dt>Algorithm:</dt> Graph Algorithms (Graph Traversal, Community Detection)
 Description: LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore connections. Community detection algorithms can identify clusters of users with similar profiles, making recommendations more relevant.
 Challenges: Managing large, dynamic graphs; ensuring privacy and security of user data.
 ## 2. Job Recommendations
