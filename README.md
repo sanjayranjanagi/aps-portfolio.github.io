@@ -159,4 +159,12 @@ The ever-evolving landscape of social networking services necessitates continual
 
 **Challenges:** Managing large-scale infrastructure, ensuring low latency and high availability.
 
+## 13.Digital Reputation (Branding)
+**Algorithm:** Trie (Prefix Tree) and Sentiment Analysis
+
+**Description:** A Trie can be used to efficiently store and retrieve user profile information and keywords related to skills, endorsements, and achievements. By organizing the profile data in a Trie, LinkedIn can quickly suggest relevant keywords and phrases to users as they build or update their profiles, ensuring that they include terms that are most likely to enhance their digital reputation.
+
+**Challenges:** Scalability: Managing and querying large volumes of profile data efficiently.
+
+[Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
