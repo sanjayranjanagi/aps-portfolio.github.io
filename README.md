@@ -54,46 +54,51 @@ The ever-evolving landscape of social networking services necessitates continual
 **Algorithm:** Graph Algorithms (Graph Traversal, Community Detection)
 Description: LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore connections. Community detection algorithms can identify clusters of users with similar profiles, making recommendations more relevant.
 Challenges: Managing large, dynamic graphs; ensuring privacy and security of user data.
+
 [Here is my code for BFS Algorithm](Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](Codes/DFS.cpp)
 ## 2. Job Recommendations
-Algorithm: Collaborative Filtering, Content-Based Filtering
-Description: To recommend jobs, LinkedIn can use collaborative filtering to analyze user behavior and preferences, suggesting jobs that similar users have shown interest in. Content-based filtering can use job descriptions and user profiles to match job postings with suitable candidates.
-Challenges: Handling sparse data, ensuring diversity and relevance in recommendations.
+Algorithm: Trie
+Description: LinkedIn can recommend jobs by storing job titles and user searches in a trie structure, allowing for efficient retrieval of job recommendations based on user input.
+Challenges: Efficiently storing and searching a large number of job titles.
 
 ## 3. Skill Endorsements and Recommendations 
-Algorithm: Association Rule Mining
-Description: Association rule mining can identify patterns in skills that are often endorsed together. LinkedIn can recommend skills to users based on these patterns, enhancing their profiles and making them more attractive to potential employers.
-Challenges: Ensuring recommendations are relevant and not overwhelming users with too many suggestions.
+Algorithm: Association Rule Mining (Using Trie for storing and querying associations)
+Description: LinkedIn can recommend skills to users based on patterns in skills that are often endorsed together.
+Challenges: Ensuring recommendations are relevant and not overwhelming users with too many suggestions
 ## 4. Profile Views and Activity Analysis
-Algorithm: Time Series Analysis
-Description: LinkedIn can use time series analysis to track profile views and user activity over time. This can help identify trends, such as peak activity periods, and optimize the platform’s performance and user engagement strategies accordingly.
-Challenges: Handling and processing large volumes of time-stamped data efficiently.
+Algorithm: AVL Tree
+Description: LinkedIn can use AVL trees to store and analyze time-stamped data such as profile views and user activity over time.
+Challenges: Ensuring efficient insertion and deletion of time-stamped data.
 ## 5. Message and Comment Filtering
-Algorithm: Natural Language Processing (NLP), Machine Learning (Spam Detection)
-Description: To maintain a professional environment, LinkedIn can use NLP and machine learning algorithms to filter out spam and inappropriate content from messages and comments. Techniques like text classification and sentiment analysis can be applied.
+Algorithm: Trie (for storing a dictionary of inappropriate words)
+Description: LinkedIn can use a Trie to store and filter out inappropriate content from messages and comments. The Trie allows for efficient searching and matching of words, enabling the platform to quickly identify and remove or flag inappropriate content. This helps maintain a professional environment on the platform by preventing the spread of offensive or harmful language.
+Challenges: Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
+
+Here is my code for 
+[Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 Challenges: Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 ## 6. Content Personalization
-Algorithm: Personalized PageRank, Topic Modeling
-Description: Personalized PageRank can be used to rank content such as articles, posts, and job listings based on user interests and connections. Topic modeling can identify relevant topics for each user, enhancing content personalization.
+Algorithm: Dijkstra's Algorithm (for finding shortest path in a graph of content connections)
+Description: LinkedIn can use Dijkstra's Algorithm to rank content based on the shortest path to user interests and connections. This algorithm helps determine the most relevant articles, posts, and job listings for each user by considering their unique preferences and network. This ensures that users see content that is most pertinent to their professional goals and interests.
 Challenges: Ensuring timely updates to rankings, maintaining relevance and diversity of content.
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp)
 ## 7. Networking Event Suggestions
-Algorithm: Clustering, Recommendation Systems
-Description: Clustering algorithms can group users based on their professional interests and geographical locations. Recommendation systems can then suggest networking events that are most relevant to each user.
+Algorithm: Clustering (using K-Means)
+Description: LinkedIn can use clustering algorithms to group users based on their professional interests and geographical locations. K-Means clustering can identify clusters of users with similar attributes, making it easier to suggest relevant networking events. This helps users discover and attend events that align with their professional goals and are located nearby.
 Challenges: Handling dynamic data and ensuring recommendations are personalized yet diverse.
 ## 8. Skills and Career Path Analytics
-Algorithm: Graph Analysis, Machine Learning
-Description: By analyzing career paths and skill progression of users, LinkedIn can provide insights and recommendations for career development. Graph analysis can map career trajectories, while machine learning can predict potential career moves based on historical data.
+Algorithm: Graph Analysis (using BFS and DFS)
+Description: By analyzing career paths and skill progression of users, LinkedIn can provide insights and recommendations for career development. Graph analysis with BFS and DFS can map out various career trajectories and highlight potential growth opportunities. This helps users plan their careers more effectively by understanding the skills and experiences needed to reach their desired positions.
 Challenges: Ensuring data accuracy and privacy, managing complex career paths.
 ## 9. Advertisement Targeting
-Algorithm: Machine Learning, A/B Testing
-Description: Machine learning algorithms can analyze user profiles and behavior to target advertisements more effectively. A/B testing can help optimize ad campaigns by comparing different versions and measuring their performance.
+Algorithm: AVL Tree (for efficient storage and retrieval of user profiles)
+Description: AVL trees can be used to store and efficiently retrieve user profiles based on various targeting criteria. This data structure ensures that the user profiles are balanced, enabling quick access to relevant data for targeted advertisements. This helps LinkedIn deliver personalized ads that are more likely to engage users and drive conversions.
 Challenges: Balancing effective targeting with user privacy, avoiding ad fatigue.
 ## 10. Infrastructure and Network Optimization
-Algorithm: Load Balancing Algorithms, Distributed Systems
-Description: To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. Distributed systems techniques can enhance scalability and reliability.
+Algorithm: Load Balancing Algorithms (Using a simple round-robin algorithm)
+Description: To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. A simple round-robin algorithm can help manage server load, reducing latency and ensuring high availability. This is crucial for maintaining a responsive and reliable platform, especially during peak usage times.
 Challenges: Managing large-scale infrastructure, ensuring low latency and high availability.
 
 
