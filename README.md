@@ -48,7 +48,18 @@ The ever-evolving landscape of social networking services necessitates continual
 3.Explore and implement algorithmic solutions that ensure streamlined and efficient services within LinkedIn’s ecosystem.
 
 ## Data Structures and Algorithms applicable
-## 1. Connection Recommendations
+
+## 1. Hire Candidates: Search and Research Members' Profiles and Hire the Right Candidates
+
+**Algorithm:** Graph Algorithms (Graph Traversal, BFS)
+
+**Description:** LinkedIn can help recruiters find and hire the right candidates by using graph traversal algorithms like BFS. Each user profile can be represented as a node in a graph, and connections between users as edges. Recruiters can search for candidates based on certain criteria, and BFS can be used to traverse through the connections to find potential candidates who match the job requirements. This enables recruiters to efficiently explore their extended network to find the best fit for their hiring needs.
+
+**Challenges:** Managing a large, dynamic graph of user profiles and connections. Ensuring the privacy and security of user data while performing searches. Keeping the search results relevant and personalized based on the recruiter's preferences and job requirements.
+
+[Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
+
+## 2. Connection Recommendations
 **Algorithm:** Graph Algorithms (Graph Traversal, Community Detection).
 
 **Description:** LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore and find potential connections within a user's network. Community detection algorithms can help identify clusters of users with similar profiles, enhancing the relevance of recommendations by focusing on users with shared professional interests or backgrounds.
@@ -58,7 +69,7 @@ The ever-evolving landscape of social networking services necessitates continual
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
-## 2. Job Recommendations
+## 3. Job Recommendations
 **Algorithm:** Trie.
 
 **Description:** LinkedIn can recommend jobs by storing job titles and user searches in a trie structure, allowing for efficient retrieval of job recommendations based on user input. The trie can quickly match job titles with user search terms, providing relevant job postings in real-time. This ensures that users are presented with job opportunities that closely align with their skills and interests.
@@ -66,14 +77,16 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
-## 3. Skill Endorsements and Recommendations 
+## 4. Skill Endorsements and Recommendations 
+
 **Algorithm:** Association Rule Mining (Using Trie for storing and querying associations).
 
 **Description:** LinkedIn can recommend skills to users based on patterns in skills that are often endorsed together. By using a trie to store these associations, the platform can efficiently query and suggest additional skills that complement a user's existing endorsements. This helps users enhance their profiles by adding relevant skills that are valued in their professional network.
 
 **Challenges:** Ensuring recommendations are relevant and not overwhelming users with too many suggestions.
 
-## 4. Profile Views and Activity Analysis
+## 5. Profile Views and Activity Analysis
+
 **Algorithm:** AVL Tree
 
 **Description:** LinkedIn can use AVL trees to store and analyze time-stamped data such as profile views and user activity over time. The AVL tree ensures that this data is stored in a balanced manner, allowing for efficient insertion, deletion, and querying operations. This helps LinkedIn track user engagement trends, optimize platform performance, and develop targeted strategies to increase user activity.
@@ -81,7 +94,18 @@ The ever-evolving landscape of social networking services necessitates continual
 **Challenges:** Ensuring efficient insertion and deletion of time-stamped data.
 
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp)
-## 5. Message and Comment Filtering
+
+## 6.Job Hunting: Apply for Jobs Advertised on LinkedIn
+
+**Algorithm: Trie**
+
+**Description:** LinkedIn can recommend jobs by storing job titles and user searches in a trie structure. This allows for efficient retrieval of job recommendations based on user input. When a user searches for job titles or keywords, the trie can quickly match and suggest relevant job postings. This helps users find suitable job opportunities more efficiently, improving their job hunting experience on LinkedIn.
+
+**Challenges:** Efficiently storing and searching a large number of job titles. Managing the dynamic nature of job postings and searches as new jobs are added and old ones are removed or filled. Ensuring that the recommendations remain relevant and personalized to the user's career interests and skills.
+
+[Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
+
+## 7. Message and Comment Filtering
 **Algorithm:** Trie (for storing a dictionary of inappropriate words).
 
 **Description:** LinkedIn can use a Trie to store and filter out inappropriate content from messages and comments. The Trie allows for efficient searching and matching of words, enabling the platform to quickly identify and remove or flag inappropriate content. This helps maintain a professional environment on the platform by preventing the spread of offensive or harmful language.
@@ -90,7 +114,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
-## 6. Content Personalization
+## 8. Content Personalization
 **Algorithm:** Dijkstra's Algorithm (for finding shortest path in a graph of content connections).
 
 **Description:** LinkedIn can use Dijkstra's Algorithm to rank content based on the shortest path to user interests and connections. This algorithm helps determine the most relevant articles, posts, and job listings for each user by considering their unique preferences and network. This ensures that users see content that is most pertinent to their professional goals and interests.
@@ -99,14 +123,14 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
 
-## 7. Networking Event Suggestions
+## 9. Networking Event Suggestions
 **Algorithm:** Clustering (using K-Means)
 
 **Description:** LinkedIn can use clustering algorithms to group users based on their professional interests and geographical locations. K-Means clustering can identify clusters of users with similar attributes, making it easier to suggest relevant networking events. This helps users discover and attend events that align with their professional goals and are located nearby.
 
 **Challenges:** Handling dynamic data and ensuring recommendations are personalized yet diverse.
 
-## 8. Skills and Career Path Analytics
+## 10. Skills and Career Path Analytics
 **Algorithm:** Graph Analysis (using BFS and DFS).
 
 **Description:** By analyzing career paths and skill progression of users, LinkedIn can provide insights and recommendations for career development. Graph analysis with BFS and DFS can map out various career trajectories and highlight potential growth opportunities. This helps users plan their careers more effectively by understanding the skills and experiences needed to reach their desired positions.
@@ -117,7 +141,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
 
-## 9. Advertisement Targeting
+## 11. Advertisement Targeting
 **Algorithm:** AVL Tree (for efficient storage and retrieval of user profiles).
 
 **Description:** AVL trees can be used to store and efficiently retrieve user profiles based on various targeting criteria. This data structure ensures that the user profiles are balanced, enabling quick access to relevant data for targeted advertisements. This helps LinkedIn deliver personalized ads that are more likely to engage users and drive conversions.
@@ -126,7 +150,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp).
 
-## 10. Infrastructure and Network Optimization
+## 12. Infrastructure and Network Optimization
 **Algorithm:** Load Balancing Algorithms (Using a simple round-robin algorithm).
 
 **Description:** To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. A simple round-robin algorithm can help manage server load, reducing latency and ensuring high availability. This is crucial for maintaining a responsive and reliable platform, especially during peak usage times.
