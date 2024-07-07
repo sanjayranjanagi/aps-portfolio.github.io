@@ -55,6 +55,7 @@ The ever-evolving landscape of social networking services necessitates continual
 Description: LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore connections. Community detection algorithms can identify clusters of users with similar profiles, making recommendations more relevant.
 Challenges: Managing large, dynamic graphs; ensuring privacy and security of user data.
 [Here is my code for BFS Algorithm](Codes/BFS.cpp)
+
 [Here is my code for DFS Algorithm](Codes/DFS.cpp)
 ## 2. Job Recommendations
 Algorithm: Collaborative Filtering, Content-Based Filtering
@@ -77,6 +78,7 @@ Challenges: Keeping up with evolving language and spam tactics, balancing strict
 Algorithm: Personalized PageRank, Topic Modeling
 Description: Personalized PageRank can be used to rank content such as articles, posts, and job listings based on user interests and connections. Topic modeling can identify relevant topics for each user, enhancing content personalization.
 Challenges: Ensuring timely updates to rankings, maintaining relevance and diversity of content.
+[Here is my code for Dijkstras Algorithm]()
 ## 7. Networking Event Suggestions
 Algorithm: Clustering, Recommendation Systems
 Description: Clustering algorithms can group users based on their professional interests and geographical locations. Recommendation systems can then suggest networking events that are most relevant to each user.
@@ -89,7 +91,7 @@ Challenges: Ensuring data accuracy and privacy, managing complex career paths.
 Algorithm: Machine Learning, A/B Testing
 Description: Machine learning algorithms can analyze user profiles and behavior to target advertisements more effectively. A/B testing can help optimize ad campaigns by comparing different versions and measuring their performance.
 Challenges: Balancing effective targeting with user privacy, avoiding ad fatigue.
-#### 10. Infrastructure and Network Optimization
+## 10. Infrastructure and Network Optimization
 Algorithm: Load Balancing Algorithms, Distributed Systems
 Description: To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. Distributed systems techniques can enhance scalability and reliability.
 Challenges: Managing large-scale infrastructure, ensuring low latency and high availability.
