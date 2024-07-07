@@ -87,6 +87,8 @@ The ever-evolving landscape of social networking services necessitates continual
 
 **Challenges:** Ensuring recommendations are relevant and not overwhelming users with too many suggestions.
 
+[Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
+
 ## 5. Profile Views and Activity Analysis
 
 **Algorithm:** AVL Tree
