@@ -52,7 +52,9 @@ The ever-evolving landscape of social networking services necessitates continual
 ## Data Structures and Algorithms applicable
 ## 1. Connection Recommendations
 **Algorithm:** Graph Algorithms (Graph Traversal, Community Detection).
+
 **Description:** LinkedIn can recommend connections to users by analyzing their current connections and suggesting new ones based on mutual connections and shared interests. Graph traversal algorithms like BFS and DFS can be used to explore and find potential connections within a user's network. Community detection algorithms can help identify clusters of users with similar profiles, enhancing the relevance of recommendations by focusing on users with shared professional interests or backgrounds.
+
 **Challenges:** Managing large, dynamic graphs; ensuring privacy and security of user data.
 
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
@@ -60,9 +62,10 @@ The ever-evolving landscape of social networking services necessitates continual
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
 ## 2. Job Recommendations
 **Algorithm:** Trie.
+
 **Description:** LinkedIn can recommend jobs by storing job titles and user searches in a trie structure, allowing for efficient retrieval of job recommendations based on user input. The trie can quickly match job titles with user search terms, providing relevant job postings in real-time. This ensures that users are presented with job opportunities that closely align with their skills and interests.
 **Challenges:** Efficiently storing and searching a large number of job titles.
-
+[Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 ## 3. Skill Endorsements and Recommendations 
 **Algorithm:** Association Rule Mining (Using Trie for storing and querying associations).
 **Description:** LinkedIn can recommend skills to users based on patterns in skills that are often endorsed together. By using a trie to store these associations, the platform can efficiently query and suggest additional skills that complement a user's existing endorsements. This helps users enhance their profiles by adding relevant skills that are valued in their professional network.
