@@ -168,3 +168,15 @@ The ever-evolving landscape of social networking services necessitates continual
 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
+## 14.Social Selling Platform
+**Algorithm:** Collaborative Filtering and Graph Analysis
+
+**Description:** Collaborative filtering can be used to recommend products, services, and potential business connections to users based on their interactions, preferences, and behaviors. By analyzing patterns in user activity, LinkedIn can suggest relevant content and connections to enhance social selling efforts.
+Graph analysis algorithms can be employed to understand and leverage the network of connections between users and companies. By analyzing these connections, LinkedIn can identify key influencers, potential leads, and the most effective pathways for building business relationships.
+
+**Challenges:** Data Volume: Handling the massive volume of user and company data efficiently.
+Privacy: Ensuring user data privacy and compliance with data protection regulations.
+
+[Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
+
+
