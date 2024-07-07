@@ -17,18 +17,16 @@
 
 * * *
 
-> A step towards better Social media management
+> **A step towards better Social media management**
 
 
 #### Note:
 This page hosts:
 
-1. Introduction
-2. Why Portfolio
-3. Objectives
-4. Design
-5. Challenges
-6. To-Do
+1. **Introduction**
+2. **Why Portfolio**
+3. **Objectives**
+4. **Data Structures and Algorithms applicable**
 
 
 
@@ -67,6 +65,7 @@ The ever-evolving landscape of social networking services necessitates continual
 **Challenges:** Efficiently storing and searching a large number of job titles.
 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
+
 ## 3. Skill Endorsements and Recommendations 
 **Algorithm:** Association Rule Mining (Using Trie for storing and querying associations).
 
@@ -81,6 +80,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 **Challenges:** Ensuring efficient insertion and deletion of time-stamped data.
 
+[Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp)
 ## 5. Message and Comment Filtering
 **Algorithm:** Trie (for storing a dictionary of inappropriate words).
 
@@ -88,7 +88,6 @@ The ever-evolving landscape of social networking services necessitates continual
 
 **Challenges:** Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 
-Here is my code for 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 6. Content Personalization
@@ -98,7 +97,7 @@ Here is my code for
 
 **Challenges:** Ensuring timely updates to rankings, maintaining relevance and diversity of content.
 
-[Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp)
+[Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
 
 ## 7. Networking Event Suggestions
 **Algorithm:** Clustering (using K-Means)
@@ -114,12 +113,18 @@ Here is my code for
 
 **Challenges:** Ensuring data accuracy and privacy, managing complex career paths.
 
+[Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
+
+[Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
+
 ## 9. Advertisement Targeting
 **Algorithm:** AVL Tree (for efficient storage and retrieval of user profiles).
 
 **Description:** AVL trees can be used to store and efficiently retrieve user profiles based on various targeting criteria. This data structure ensures that the user profiles are balanced, enabling quick access to relevant data for targeted advertisements. This helps LinkedIn deliver personalized ads that are more likely to engage users and drive conversions.
 
 **Challenges:** Balancing effective targeting with user privacy, avoiding ad fatigue.
+
+[Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp).
 
 ## 10. Infrastructure and Network Optimization
 **Algorithm:** Load Balancing Algorithms (Using a simple round-robin algorithm).
