@@ -176,21 +176,19 @@ The ever-evolving landscape of social networking services necessitates continual
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
 ## 7. Message and Comment Filtering
-**Algorithm:** Trie (for storing a dictionary of inappropriate words).
+**Algorithm:** Aho-Corasick Algorithm (for multi-pattern string matching).
+
 <p style="text-align: justify;">
-<strong>Description:</strong> LinkedIn can use a Trie to store and filter out inappropriate content from messages and comments. The Trie allows for efficient searching and matching of words, enabling the platform to quickly identify and remove or flag inappropriate content. This helps maintain a professional environment on the platform by preventing the spread of offensive or harmful language.
+<strong>Description:</strong> LinkedIn can use the Aho-Corasick algorithm to efficiently filter out inappropriate content from messages and comments. This algorithm constructs a trie for a given set of keywords (inappropriate words) and enhances it with additional links to allow fast multi-pattern matching. This enables LinkedIn to quickly identify and remove or flag inappropriate content in a single pass through the text, maintaining a professional environment by preventing the spread of offensive or harmful language.
 </p>
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 </p>
-### Trie
-
+### Aho-Corasick Algorithm
 - **Time Complexity:**
-  - Insertion: O(L), where L is the length of the word.
-  - Search: O(L), where L is the length of the word.
-  - Deletion: O(L), where L is the length of the word.
-- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
-  
+  - Construction: O(M), where M is the total length of all keywords combined.
+  - Searching: O(N + Z), where N is the length of the text and Z is the number of matches.
+- **Space Complexity:** O(M * ALPHABET_SIZE), where M is the total length of all keywords combined, and ALPHABET_SIZE is the size of the alphabet. 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 8. Content Personalization
