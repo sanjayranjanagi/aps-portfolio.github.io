@@ -252,16 +252,17 @@ Challenges: The primary challenges include managing the complexity of real-world
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp).
 
 ## 12. Infrastructure and Network Optimization
-**Algorithm:** Load Balancing Algorithms (Using a simple round-robin algorithm).
+**Algorithm:** Segment Tree
 <p style="text-align: justify;">
-<strong>Description:</strong> To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. A simple round-robin algorithm can help manage server load, reducing latency and ensuring high availability. This is crucial for maintaining a responsive and reliable platform, especially during peak usage times.
+<strong>Description:</strong> LinkedIn can use a Segment Tree to efficiently manage and optimize its infrastructure and network resources. Segment Trees are particularly useful for handling dynamic range queries and updates, such as monitoring server loads and balancing requests across multiple servers. By segmenting the network into manageable ranges, LinkedIn can quickly query the current load of each segment and redistribute traffic as needed to ensure optimal performance and minimize latency.
 </p>
-**Challenges:** Managing large-scale infrastructure, ensuring low latency and high availability.
-### Load Balancing Algorithms (Using a Simple Round-Robin Algorithm)
-
-- **Time Complexity:** O(1) per request, since each request is assigned in constant time.
-- **Space Complexity:** O(1), as it only needs to store the index of the next server to assign the request to.
-
+<p style="text-align: justify;">
+<strong>Challenges:</strong> The primary challenges include the complexity of implementing and maintaining the Segment Tree structure, particularly in a highly dynamic environment. Additionally, ensuring the accuracy and timeliness of load data is crucial for effective optimization.
+</p>
+### Segment Tree
+- **Time Complexity:**
+  - Query: O(log N), where N is the number of segments or servers.
+  - Update: O(log N), for updating the load data of a segment.
 
 ## 13.Digital Reputation (Branding)
 **Algorithm:** Trie (Prefix Tree) and Sentiment Analysis
