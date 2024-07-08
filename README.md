@@ -351,3 +351,7 @@ By linking theory to practice, this portfolio provides insights into choosing th
 
 [2] flyguy67, “Traveling Salesman Problem Visualization”, Make A GIF, [https://makeagif.com/gif/traveling-salesman-problem-visualization-UZrVqj](https://makeagif.com/gif/traveling-salesman-problem-visualization-UZrVqj)
 
+[3] segment tree [https://medium.com/@florian_algo/segment-tree-1-basic-concepts-and-operations-in-detail-19a38c69648e](https://medium.com/@florian_algo/segment-tree-1-basic-concepts-and-operations-in-detail-19a38c69648e)
+
+[4] dijkstras algorithm [https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#:~:text=Dijkstra's%20algorithm%20is%20commonly%20used,)%20are%20monotonically%20non%2Ddecreasing.](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#:~:text=Dijkstra's%20algorithm%20is%20commonly%20used,)%20are%20monotonically%20non%2Ddecreasing.)
+
