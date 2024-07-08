@@ -184,4 +184,10 @@ Privacy: Ensuring user data privacy and compliance with data protection regulati
 
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
 
+## 15.Personalized Learning Path Recommendations
+**Algorithm:** Dynamic Programming (for personalized learning paths)
+
+**Description:** LinkedIn can recommend personalized learning paths to users by analyzing their current skills, career goals, and industry trends. Dynamic programming can be used to optimize these learning paths by identifying the most efficient sequence of courses and certifications to achieve the desired skills and career progression. This helps users navigate their professional development in a structured and efficient manner.
+
+**Challenges:** Managing and analyzing diverse sets of skills and career goals. Ensuring recommendations are up-to-date with industry standards and trends
 
