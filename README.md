@@ -95,7 +95,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 - **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 - **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
-- 
+  
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
@@ -146,6 +146,7 @@ The ever-evolving landscape of social networking services necessitates continual
   - Deletion: O(log N), where N is the number of nodes in the tree.
   - Search: O(log N), where N is the number of nodes in the tree.
 - **Space Complexity:** O(N), where N is the number of nodes in the tree.
+  
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp)
 
 ## 6.Job Hunting: Apply for Jobs Advertised on LinkedIn
@@ -164,6 +165,7 @@ The ever-evolving landscape of social networking services necessitates continual
   - Search: O(L), where L is the length of the word.
   - Deletion: O(L), where L is the length of the word.
 - **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
+  
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
 ## 7. Message and Comment Filtering
@@ -181,6 +183,7 @@ The ever-evolving landscape of social networking services necessitates continual
   - Search: O(L), where L is the length of the word.
   - Deletion: O(L), where L is the length of the word.
 - **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
+  
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 8. Content Personalization
@@ -231,6 +234,7 @@ Challenges: The primary challenges include managing the complexity of real-world
 
 - **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 - **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
+  
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
@@ -248,6 +252,7 @@ Challenges: The primary challenges include managing the complexity of real-world
   - Deletion: O(log N), where N is the number of nodes in the tree.
   - Search: O(log N), where N is the number of nodes in the tree.
 - **Space Complexity:** O(N), where N is the number of nodes in the tree.
+  
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp).
 
 ## 12. Infrastructure and Network Optimization
@@ -275,6 +280,7 @@ Challenges: The primary challenges include managing the complexity of real-world
   - Search: O(L), where L is the length of the word.
   - Deletion: O(L), where L is the length of the word.
 - **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
+  
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 14.Social Selling Platform
