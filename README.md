@@ -185,6 +185,8 @@ The ever-evolving landscape of social networking services necessitates continual
 <strong>Challenges:</strong> Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 </p>
 ### Aho-Corasick Algorithm
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/aho.png)
+
 - **Time Complexity:**
   - Construction: O(M), where M is the total length of all keywords combined.
   - Searching: O(N + Z), where N is the length of the text and Z is the number of matches.
