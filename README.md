@@ -214,11 +214,6 @@ Challenges: The primary challenges include managing the complexity of real-world
 
 - **Space Complexity:** The space complexity is O(N), where N is the number of events. This space is used to store the list of events and the distances between them.
 
-### Clustering (using K-Means)
-
-- **Time Complexity:** O(I * K * N * D), where I is the number of iterations, K is the number of clusters, N is the number of points, and D is the number of dimensions.
-- **Space Complexity:** O(K * D + N * D), for storing the cluster centers and the data points.
-
 [Here is code for Travelling salesmen problem](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/f9452a5bcb40291a52978dc26a86fc9e03f851a1/Codes/Travelling_sales_prob.cpp)
 ## 10. Skills and Career Path Analytics
 **Algorithm:** Graph Analysis (using BFS and DFS).
