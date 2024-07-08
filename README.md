@@ -67,7 +67,7 @@ The ever-evolving landscape of social networking services necessitates continual
 
 **Algorithm:** Graph Algorithms (Graph Traversal, BFS)
 <p style="text-align: justify;">
-**Description:** LinkedIn can help recruiters find and hire the right candidates by using graph traversal algorithms like BFS. Each user profile can be represented as a node in a graph, and connections between users as edges. Recruiters can search for candidates based on certain criteria, and BFS can be used to traverse through the connections to find potential candidates who match the job requirements. This enables recruiters to efficiently explore their extended network to find the best fit for their hiring needs.
+<strong>Description:</strong> LinkedIn can help recruiters find and hire the right candidates by using graph traversal algorithms like BFS. Each user profile can be represented as a node in a graph, and connections between users as edges. Recruiters can search for candidates based on certain criteria, and BFS can be used to traverse through the connections to find potential candidates who match the job requirements. This enables recruiters to efficiently explore their extended network to find the best fit for their hiring needs.
 </p>
 <p style="text-align: justify;">
 **Challenges:** Managing a large, dynamic graph of user profiles and connections. Ensuring the privacy and security of user data while performing searches. Keeping the search results relevant and personalized based on the recruiter's preferences and job requirements.
