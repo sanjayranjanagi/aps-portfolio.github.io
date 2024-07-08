@@ -35,7 +35,7 @@ This page hosts:
 * * *
 
 ## Introduction
-<p class="justify-text">
+<p style="text-align: justify;">
 LinkedIn is a leading professional networking service, providing a platform for professionals to connect, share, and grow their careers. In today’s data-driven world, the efficiency and effectiveness of social networking services can be significantly enhanced through the strategic application of data structures and algorithms. This portfolio project delves into the core functionalities of LinkedIn’s diverse services, applying the theoretical knowledge and practical skills acquired from the course Algorithmic Problem Solving (APS). By using advanced algorithmic techniques and data structures, this project aims to propose solutions to real-world business applications. From optimizing connection recommendations for improved relevance to enhancing content delivery for better engagement, the potential for enhancement is vast.
 </p>
 
