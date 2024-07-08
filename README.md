@@ -315,14 +315,20 @@ Privacy: Ensuring user data privacy and compliance with data protection regulati
 [Here is code for Assignment Problem](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/40fea19695fec030cb2d113a4b7f10b29d0473d5/Codes/Assignement_prob.cpp)
 
 ## 17. Personalized Email and Notification Campaigns
-**Algorithm:** Decision Trees (for segmentation and targeting)
+**Algorithm:** Hash Table (for fast lookup and segmentation)
 <p style="text-align: justify;">
-<strong>Description:</strong> LinkedIn can use decision trees to segment users based on their profiles, behaviors, and preferences. This allows for targeted email and notification campaigns that deliver personalized content to different user segments. Decision trees help identify the most relevant criteria for segmentation, ensuring that the campaigns are effective and engaging for each user group.
+<strong>Description:</strong> LinkedIn can use a hash table to efficiently segment users based on their profiles, behaviors, and preferences. By hashing user attributes (such as job title, industry, activity level, etc.), LinkedIn can quickly categorize users into different segments for targeted email and notification campaigns. Hash tables allow for constant time complexity for both insertion and retrieval operations, making them ideal for handling large datasets and providing fast access to user segments.
 </p>
 <p style="text-align: justify;">
-<strong>Challenges:</strong> Ensuring the segmentation criteria are accurate and up-to-date. Balancing the frequency of notifications to avoid user fatigue.
+<strong>Challenges:</strong> Ensuring the hash function is well-designed to minimize collisions and distribute users evenly across the hash table. Managing dynamic updates to user profiles and preferences, which requires efficient rehashing or re-segmentation to keep the data current.
 </p>
+### Hash Table
+- **Time Complexity:**
 
+  - Insertion: O(1), for adding a user to a segment.
+  - Lookup: O(1), for retrieving users from a segment
+
+[Here is code for Hash Table]()
 ## Learnings and Key Takeaways
 <p style="text-align: justify;">
 This portfolio demonstrates how selecting appropriate data structures and algorithms can address specific business challenges across various LinkedIn functionalities. Each use case details the application of suitable algorithms, outlines the challenges, highlights the benefits, and emphasizes design techniques tailored to LinkedIn's services. It shows how algorithms learned in APS and DSA classes can be directly applied to practical problems on LinkedIn and focuses on efficiency and practicality.
