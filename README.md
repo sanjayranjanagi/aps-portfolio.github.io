@@ -72,6 +72,7 @@ The ever-evolving landscape of social networking services necessitates continual
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Managing a large, dynamic graph of user profiles and connections. Ensuring the privacy and security of user data while performing searches. Keeping the search results relevant and personalized based on the recruiter's preferences and job requirements.
 </p>
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/BFS.png)
 ### Breadth-First Search (BFS)
 
 - **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
@@ -95,7 +96,9 @@ The ever-evolving landscape of social networking services necessitates continual
 
 - **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 - **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
-  
+
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/DFS.png)
+
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
