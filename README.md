@@ -266,6 +266,8 @@ Challenges: The primary challenges include managing the complexity of real-world
 <strong>Challenges:</strong> The primary challenges include the complexity of implementing and maintaining the Segment Tree structure, particularly in a highly dynamic environment. Additionally, ensuring the accuracy and timeliness of load data is crucial for effective optimization.
 </p>
 ### Segment Tree
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/segment-tree.png)
+
 - **Time Complexity:**
   - Query: O(log N), where N is the number of segments or servers.
   - Update: O(log N), for updating the load data of a segment.
