@@ -328,7 +328,7 @@ Privacy: Ensuring user data privacy and compliance with data protection regulati
   - Insertion: O(1), for adding a user to a segment.
   - Lookup: O(1), for retrieving users from a segment
 
-[Here is code for Hash Table]()
+[Here is code for Hash Table](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/2ef95b556975774580304facc37effeb235be414/Codes/Hash_Table.cpp)
 ## Learnings and Key Takeaways
 <p style="text-align: justify;">
 This portfolio demonstrates how selecting appropriate data structures and algorithms can address specific business challenges across various LinkedIn functionalities. Each use case details the application of suitable algorithms, outlines the challenges, highlights the benefits, and emphasizes design techniques tailored to LinkedIn's services. It shows how algorithms learned in APS and DSA classes can be directly applied to practical problems on LinkedIn and focuses on efficiency and practicality.
