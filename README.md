@@ -264,6 +264,8 @@ Challenges: The primary challenges include managing the complexity of real-world
   - Query: O(log N), where N is the number of segments or servers.
   - Update: O(log N), for updating the load data of a segment.
 
+[Here is code for segment tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/11c9eafdd056817d525a36859835f3ae12dd0386/Codes/segment_tree.cpp).
+
 ## 13.Digital Reputation (Branding)
 **Algorithm:** Trie (Prefix Tree) and Sentiment Analysis
 <p style="text-align: justify;">
