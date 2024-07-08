@@ -144,6 +144,8 @@ The ever-evolving landscape of social networking services necessitates continual
 **Challenges:** Ensuring efficient insertion and deletion of time-stamped data.
 ### AVL Tree
 
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/Avl_tree.png)
+
 - **Time Complexity:**
   - Insertion: O(log N), where N is the number of nodes in the tree.
   - Deletion: O(log N), where N is the number of nodes in the tree.
