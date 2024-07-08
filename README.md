@@ -189,6 +189,7 @@ The ever-evolving landscape of social networking services necessitates continual
   - Construction: O(M), where M is the total length of all keywords combined.
   - Searching: O(N + Z), where N is the length of the text and Z is the number of matches.
 - **Space Complexity:** O(M * ALPHABET_SIZE), where M is the total length of all keywords combined, and ALPHABET_SIZE is the size of the alphabet. 
+
 [Here is my code for message filtering](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/86fb843efcb5790c4404b97dc575a70cdca919db/Codes/string-match.cpp)
 
 ## 8. Content Personalization
@@ -341,3 +342,10 @@ This portfolio demonstrates how selecting appropriate data structures and algori
 <p style="text-align: justify;">
 By linking theory to practice, this portfolio provides insights into choosing the best solutions for real-world issues on LinkedIn. It illustrates the significant impact that well-chosen algorithms and data structures can have on improving LinkedIn's services, such as optimizing connection recommendations, enhancing content delivery, and personalizing job recommendations. The portfolio emphasizes the importance of understanding these concepts to drive innovation and efficiency on LinkedIn, ultimately contributing to a more engaging and effective professional networking platform.
 </p>
+
+## References
+
+[1] Sebastian De Lima, “A quick explanation of DFS & BFS (Depth First Search & Breadth-First Search)”, Medium, [https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c](https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c)
+
+[2] flyguy67, “Traveling Salesman Problem Visualization”, Make A GIF, [https://makeagif.com/gif/traveling-salesman-problem-visualization-UZrVqj](https://makeagif.com/gif/traveling-salesman-problem-visualization-UZrVqj)
+
