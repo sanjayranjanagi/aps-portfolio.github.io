@@ -88,7 +88,7 @@ The ever-evolving landscape of social networking services necessitates continual
 **Algorithm:** Trie.
 <p style="text-align: justify;">
 <strong>Description:</strong> LinkedIn can recommend jobs by storing job titles and user searches in a trie structure, allowing for efficient retrieval of job recommendations based on user input. The trie can quickly match job titles with user search terms, providing relevant job postings in real-time. This ensures that users are presented with job opportunities that closely align with their skills and interests.
-**Challenges:** Efficiently storing and searching a large number of job titles.
+<strong>Challenges:</strong> Efficiently storing and searching a large number of job titles.
 </p>
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
@@ -129,7 +129,7 @@ The ever-evolving landscape of social networking services necessitates continual
 <strong>Description:</strong> LinkedIn can use a Trie to store and filter out inappropriate content from messages and comments. The Trie allows for efficient searching and matching of words, enabling the platform to quickly identify and remove or flag inappropriate content. This helps maintain a professional environment on the platform by preventing the spread of offensive or harmful language.
 </p>
 <p style="text-align: justify;">
-**Challenges:** Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
+<strong>Challenges:</strong> Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 </p>
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
@@ -139,7 +139,7 @@ The ever-evolving landscape of social networking services necessitates continual
 <strong>Description:</strong> LinkedIn can use Dijkstra's Algorithm to rank content based on the shortest path to user interests and connections. This algorithm helps determine the most relevant articles, posts, and job listings for each user by considering their unique preferences and network. This ensures that users see content that is most pertinent to their professional goals and interests.
 </p>
 <p style="text-align: justify;">
-**Challenges:** Ensuring timely updates to rankings, maintaining relevance and diversity of content.
+<strong>Challenges:</strong> Ensuring timely updates to rankings, maintaining relevance and diversity of content.
 </p>
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
 
@@ -193,7 +193,7 @@ The ever-evolving landscape of social networking services necessitates continual
 Graph analysis algorithms can be employed to understand and leverage the network of connections between users and companies. By analyzing these connections, LinkedIn can identify key influencers, potential leads, and the most effective pathways for building business relationships.
 </p>
 <p style="text-align: justify;">
-**Challenges:** Data Volume: Handling the massive volume of user and company data efficiently.
+<strong>Challenges:</strong> Data Volume: Handling the massive volume of user and company data efficiently.
 Privacy: Ensuring user data privacy and compliance with data protection regulations.
 </p>
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
