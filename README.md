@@ -72,6 +72,16 @@ The ever-evolving landscape of social networking services necessitates continual
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Managing a large, dynamic graph of user profiles and connections. Ensuring the privacy and security of user data while performing searches. Keeping the search results relevant and personalized based on the recruiter's preferences and job requirements.
 </p>
+### Breadth-First Search (BFS)
+
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the queue and the visited list.
+
+### Depth-First Search (DFS)
+
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
+
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 ## 2. Connection Recommendations
