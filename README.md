@@ -7,6 +7,8 @@
 <dd>23ECSE309</dd>
 <dt>Name</dt>
 <dd>Sanjay Ranjanagi</dd>
+<dt>USN</dt>
+<dd>01FE21BCS172</dd>
 <dt>University</dt>
 <dd>KLE Technological University, Hubballi-31</dd>
 <dt>Course Instructor</dt>
@@ -193,9 +195,18 @@ Privacy: Ensuring user data privacy and compliance with data protection regulati
 
 [Here is my code for Dynamic Programming](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9be267df4aa9faaf365f207c2c677420b1cac873/Codes/dp.cpp)
 
-## 17.Project and Team Collaboration Suggestions
+## 16.Project and Team Collaboration Suggestions
 **Algorithm:** Assignment Problem (Hungarian Algorithm)
 
 **Description:** LinkedIn can suggest project and team collaborations by solving the assignment problem, where tasks or roles need to be assigned to users in the most efficient manner. The Hungarian algorithm can be used to optimize these assignments based on user skills, experience, and availability. This helps in forming effective teams and ensuring that the right people are assigned to the right tasks.
 
 **Challenges:** Accurately capturing and evaluating user skills and availability. Ensuring the algorithm scales with a large number of users and tasks.
+
+[Here is code for Assignment Problem](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/40fea19695fec030cb2d113a4b7f10b29d0473d5/Codes/Assignement_prob.cpp)
+
+## 17. Personalized Email and Notification Campaigns
+**Algorithm:** Decision Trees (for segmentation and targeting)
+
+**Description:** LinkedIn can use decision trees to segment users based on their profiles, behaviors, and preferences. This allows for targeted email and notification campaigns that deliver personalized content to different user segments. Decision trees help identify the most relevant criteria for segmentation, ensuring that the campaigns are effective and engaging for each user group.
+
+**Challenges:** Ensuring the segmentation criteria are accurate and up-to-date. Balancing the frequency of notifications to avoid user fatigue.
