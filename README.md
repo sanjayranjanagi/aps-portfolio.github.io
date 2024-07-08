@@ -39,6 +39,9 @@ LinkedIn is a leading professional networking service, providing a platform for 
 
 This portfolio showcases how algorithms can be applied within LinkedIn’s ecosystem. Each use case illustrates how specific DSA principles can solve practical challenges faced by a social networking service like LinkedIn, bridging the gap between theory and application. Explore the use cases to see how DSA and Algorithmic Problem Solving techniques are used to enhance performance, reliability, and efficiency in a real-world context.
 
+**Market Analysis of Linkedin**
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/market.png)
+
 ## Need of Portfolio
 The ever-evolving landscape of social networking services necessitates continual improvements in service management and user experience. LinkedIn, as a leading player in this industry, faces various operational challenges that can be addressed through the strategic application of data structures and algorithms. This portfolio is essential for several reasons. Firstly, optimizing service efficiency is crucial; efficient connection recommendations and content delivery can maximize user engagement and satisfaction. By exploring advanced algorithmic solutions, this portfolio aims to enhance these processes, resulting in a more personalized and efficient service. Additionally, the transition from theoretical knowledge to practical application is a critical step in the learning process. This portfolio provides an opportunity to apply concepts learned in Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) courses to real-world problems, thereby solidifying understanding and skills.
 
