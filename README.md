@@ -110,6 +110,8 @@ The ever-evolving landscape of social networking services necessitates continual
 </p>
 ### Trie
 
+![](https://raw.githubusercontent.com/sanjayranjanagi/sanjayranjanagi.github.io/main/Images/trie.png)
+
 - **Time Complexity:**
   - Insertion: O(L), where L is the length of the word.
   - Search: O(L), where L is the length of the word.
