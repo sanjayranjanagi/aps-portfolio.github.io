@@ -77,11 +77,6 @@ The ever-evolving landscape of social networking services necessitates continual
 - **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
 - **Space Complexity:** O(V), for storing the queue and the visited list.
 
-### Depth-First Search (DFS)
-
-- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
-- **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
-
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 ## 2. Connection Recommendations
@@ -91,16 +86,16 @@ The ever-evolving landscape of social networking services necessitates continual
 </p>
 **Challenges:** Managing large, dynamic graphs; ensuring privacy and security of user data.
 
-**Performance Analysis**
-Breadth-First Search (BFS)
+### Breadth-First Search (BFS)
 
-Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
-Space Complexity: O(V), for storing the queue and the visited list
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the queue and the visited list.
 
-Depth-First Search (DFS)
+### Depth-First Search (DFS)
 
-Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
-Space Complexity: O(V), for storing the recursion stack or iterative stack and the visited list.
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
+- 
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
@@ -110,6 +105,14 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> LinkedIn can recommend jobs by storing job titles and user searches in a trie structure, allowing for efficient retrieval of job recommendations based on user input. The trie can quickly match job titles with user search terms, providing relevant job postings in real-time. This ensures that users are presented with job opportunities that closely align with their skills and interests.
 <strong>Challenges:</strong> Efficiently storing and searching a large number of job titles.
 </p>
+### Trie
+
+- **Time Complexity:**
+  - Insertion: O(L), where L is the length of the word.
+  - Search: O(L), where L is the length of the word.
+  - Deletion: O(L), where L is the length of the word.
+- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
+
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
 ## 4. Skill Endorsements and Recommendations 
@@ -119,6 +122,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> LinkedIn can recommend skills to users based on patterns in skills that are often endorsed together. By using a trie to store these associations, the platform can efficiently query and suggest additional skills that complement a user's existing endorsements. This helps users enhance their profiles by adding relevant skills that are valued in their professional network.
 </p>
 **Challenges:** Ensuring recommendations are relevant and not overwhelming users with too many suggestions.
+### Trie
+
+- **Time Complexity:**
+  - Insertion: O(L), where L is the length of the word.
+  - Search: O(L), where L is the length of the word.
+  - Deletion: O(L), where L is the length of the word.
+- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
 
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
@@ -129,7 +139,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> LinkedIn can use AVL trees to store and analyze time-stamped data such as profile views and user activity over time. The AVL tree ensures that this data is stored in a balanced manner, allowing for efficient insertion, deletion, and querying operations. This helps LinkedIn track user engagement trends, optimize platform performance, and develop targeted strategies to increase user activity.
 </p>
 **Challenges:** Ensuring efficient insertion and deletion of time-stamped data.
+### AVL Tree
 
+- **Time Complexity:**
+  - Insertion: O(log N), where N is the number of nodes in the tree.
+  - Deletion: O(log N), where N is the number of nodes in the tree.
+  - Search: O(log N), where N is the number of nodes in the tree.
+- **Space Complexity:** O(N), where N is the number of nodes in the tree.
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp)
 
 ## 6.Job Hunting: Apply for Jobs Advertised on LinkedIn
@@ -141,6 +157,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Efficiently storing and searching a large number of job titles. Managing the dynamic nature of job postings and searches as new jobs are added and old ones are removed or filled. Ensuring that the recommendations remain relevant and personalized to the user's career interests and skills.
 </p>
+### Trie
+
+- **Time Complexity:**
+  - Insertion: O(L), where L is the length of the word.
+  - Search: O(L), where L is the length of the word.
+  - Deletion: O(L), where L is the length of the word.
+- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/9e050f41b8f608ab45311461ea1213d5581629a1/Codes/Trie.cpp)
 
 ## 7. Message and Comment Filtering
@@ -151,6 +174,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Keeping up with evolving language and spam tactics, balancing strictness with allowing genuine content.
 </p>
+### Trie
+
+- **Time Complexity:**
+  - Insertion: O(L), where L is the length of the word.
+  - Search: O(L), where L is the length of the word.
+  - Deletion: O(L), where L is the length of the word.
+- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 8. Content Personalization
@@ -161,14 +191,30 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <p style="text-align: justify;">
 <strong>Challenges:</strong> Ensuring timely updates to rankings, maintaining relevance and diversity of content.
 </p>
+### Dijkstra's Algorithm
+
+- **Time Complexity:** O(V^2) with a simple implementation, O(E + V log V) with a priority queue or Fibonacci heap, where V is the number of vertices and E is the number of edges.
+- **Space Complexity:** O(V + E), for storing the graph and additional structures like distance and priority queue.
+
 [Here is my code for Dijkstras Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/4d0e93f35ec616655ef9c5c4f9363603ce7a6d36/Codes/Dijkstras.cpp).
 
-## 9. Networking Event Suggestions
-**Algorithm:** Clustering (using K-Means)
+## 9.Algorithm: Greedy Algorithm for the Traveling Salesman Problem (TSP)
 <p style="text-align: justify;">
-<strong>Description:</strong> LinkedIn can use clustering algorithms to group users based on their professional interests and geographical locations. K-Means clustering can identify clusters of users with similar attributes, making it easier to suggest relevant networking events. This helps users discover and attend events that align with their professional goals and are located nearby.
+<strong>Description:</strong> LinkedIn can utilize a Greedy Algorithm to solve a variation of the Traveling Salesman Problem for suggesting networking events. By treating each event location as a node in a graph and the travel distances between events as edges, the Greedy Algorithm can help users plan an efficient route to attend multiple events. This ensures that the suggested events are not only relevant to the user's professional interests but also optimized for travel convenience.
 </p>
-**Challenges:** Handling dynamic data and ensuring recommendations are personalized yet diverse.
+<p style="text-align: justify;">
+Challenges: The primary challenges include managing the complexity of real-world travel logistics and ensuring the algorithm scales effectively with the number of events. Additionally, it’s crucial to balance the algorithm’s recommendations with the user’s preferences and availability.
+</p>
+### Traveling Salesman Problem.
+
+- **Time Complexity:** The time complexity for a Greedy Algorithm applied to the TSP is typically O(N^2), where N is the number of events. This is because, in the worst case, the algorithm may need to compare each event with every other event to find the shortest path.
+
+- **Space Complexity:** The space complexity is O(N), where N is the number of events. This space is used to store the list of events and the distances between them.
+
+### Clustering (using K-Means)
+
+- **Time Complexity:** O(I * K * N * D), where I is the number of iterations, K is the number of clusters, N is the number of points, and D is the number of dimensions.
+- **Space Complexity:** O(K * D + N * D), for storing the cluster centers and the data points.
 
 ## 10. Skills and Career Path Analytics
 **Algorithm:** Graph Analysis (using BFS and DFS).
@@ -176,7 +222,15 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> By analyzing career paths and skill progression of users, LinkedIn can provide insights and recommendations for career development. Graph analysis with BFS and DFS can map out various career trajectories and highlight potential growth opportunities. This helps users plan their careers more effectively by understanding the skills and experiences needed to reach their desired positions.
 </p>
 **Challenges:** Ensuring data accuracy and privacy, managing complex career paths.
+### Breadth-First Search (BFS)
 
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the queue and the visited list.
+
+### Depth-First Search (DFS)
+
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+- **Space Complexity:** O(V), for storing the recursion stack or iterative stack and the visited list.
 [Here is my code for BFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/68f50cb221eec1df41b0438b489af6dc3d67dd22/Codes/BFS.cpp)
 
 [Here is my code for DFS Algorithm](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/d4d45579d19f746f4dd1777cf1e23da9d08c9a18/Codes/DFS.cpp)
@@ -187,7 +241,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> AVL trees can be used to store and efficiently retrieve user profiles based on various targeting criteria. This data structure ensures that the user profiles are balanced, enabling quick access to relevant data for targeted advertisements. This helps LinkedIn deliver personalized ads that are more likely to engage users and drive conversions.
 </p>
 **Challenges:** Balancing effective targeting with user privacy, avoiding ad fatigue.
+### AVL Tree
 
+- **Time Complexity:**
+  - Insertion: O(log N), where N is the number of nodes in the tree.
+  - Deletion: O(log N), where N is the number of nodes in the tree.
+  - Search: O(log N), where N is the number of nodes in the tree.
+- **Space Complexity:** O(N), where N is the number of nodes in the tree.
 [Here is my code for AVL tree](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/1022f5e7ba90b7a0965f8783401d4fa6af881bdf/Codes/AVL_tree.cpp).
 
 ## 12. Infrastructure and Network Optimization
@@ -196,6 +256,11 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> To ensure smooth performance, LinkedIn can use load balancing algorithms to distribute user requests evenly across servers. A simple round-robin algorithm can help manage server load, reducing latency and ensuring high availability. This is crucial for maintaining a responsive and reliable platform, especially during peak usage times.
 </p>
 **Challenges:** Managing large-scale infrastructure, ensuring low latency and high availability.
+### Load Balancing Algorithms (Using a Simple Round-Robin Algorithm)
+
+- **Time Complexity:** O(1) per request, since each request is assigned in constant time.
+- **Space Complexity:** O(1), as it only needs to store the index of the next server to assign the request to.
+
 
 ## 13.Digital Reputation (Branding)
 **Algorithm:** Trie (Prefix Tree) and Sentiment Analysis
@@ -203,7 +268,13 @@ Space Complexity: O(V), for storing the recursion stack or iterative stack and t
 <strong>Description:</strong> A Trie can be used to efficiently store and retrieve user profile information and keywords related to skills, endorsements, and achievements. By organizing the profile data in a Trie, LinkedIn can quickly suggest relevant keywords and phrases to users as they build or update their profiles, ensuring that they include terms that are most likely to enhance their digital reputation.
 </p>
 **Challenges:** Scalability: Managing and querying large volumes of profile data efficiently.
+### Trie
 
+- **Time Complexity:**
+  - Insertion: O(L), where L is the length of the word.
+  - Search: O(L), where L is the length of the word.
+  - Deletion: O(L), where L is the length of the word.
+- **Space Complexity:** O(ALPHABET_SIZE * L * N), where ALPHABET_SIZE is the size of the alphabet (e.g., 26 for lowercase English letters), L is the average length of the words, and N is the number of words.
 [Here is my code for Trie data structure](https://github.com/sanjayranjanagi/sanjayranjanagi.github.io/blob/292c0726f88a3c920725b5ffe9cb945b9a99912d/Codes/Trie)
 
 ## 14.Social Selling Platform
